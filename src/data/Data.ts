@@ -152,7 +152,7 @@ export const Data = {
         projects: [
             {
                 name: "Dream Match",
-                icon: "/DreamMatch.png",
+                icon: "/dreamMatch.png",
                 desciption: "Dream Match is a project I create to challenge interview. This app allow users to create the perfect football match",
                 stack: ["Next", "TailwindCSS","Shadcn" , "Figma"],
                 url: 'https://dream-match-s993.vercel.app/',
