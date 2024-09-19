@@ -99,6 +99,12 @@ export const Data = {
         title: 'Work Experience',
         works: [
             {
+                name: "BluRealty & Investment",
+                icon: "/bluIcon.png",
+                role: "Frontend Developer",
+                date: "September 2024 - Present",
+            },
+            {
                 name: "Freelance",
                 icon: "/me.png",
                 role: "Full Stack Developer | UI Designer",
@@ -154,12 +160,12 @@ export const Data = {
                 name: "Dream Match",
                 icon: "/dreamMatch.png",
                 desciption: "Dream Match is a project I create to challenge interview. This app allow users to create the perfect football match",
-                stack: ["Next", "TailwindCSS","Shadcn" , "Figma"],
+                stack: ["Next", "TailwindCSS", "Shadcn", "Figma"],
                 url: 'https://dream-match-s993.vercel.app/',
                 github: "https://github.com/tikajeremias/dream-match",
                 dockerhub: "https://hub.docker.com/repository/docker/jeremiastika/dream-match/general",
             },
-            
+
         ]
     },
 
