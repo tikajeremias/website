@@ -165,6 +165,14 @@ export const Data = {
                 github: "https://github.com/tikajeremias/dream-match",
                 dockerhub: "https://hub.docker.com/repository/docker/jeremiastika/dream-match/general",
             },
+            {
+                name: "Frontend - Poke Api",
+                icon: "/pokeapi.png",
+                desciption: "This Poke Api is a project I was created to challenge interview. This app allow users to create and view all the pokemons.",
+                stack: ["React", "ViteJs", "TailwindCSS"],
+                url: 'https://poke-api-tika.vercel.app/',
+                github: "https://github.com/tikajeremias/poke-api",
+            },
 
         ]
     },
