@@ -8,8 +8,8 @@ export const Data = {
 
     profile: {
         icon: "/me.png",
-        title: "Full Stack Developer & UI Designer",
-        description: "Full Stack Developer with a specialization in Frontend Development and a passion for UI Design, I thrive in creating engaging and user-friendly digital experiences. My journey in tech has equipped me with a robust skill set and a keen eye for detail, allowing me to contribute effectively to both the development and design aspects of projects.",
+        title: "Full Stack Developer",
+        description: "Full Stack Developer with a specialization in Frontend Development and React Native Development, I have experience in React.js, Next.js, and modern technologies from native devices like Expo React Native. I specialize in creating fluid and accessible user experiences that meet the highest industry standards.",
     },
 
     about: {
@@ -34,6 +34,10 @@ export const Data = {
             },
             {
                 title: "React Native",
+                icon: ""
+            },
+            {
+                title: "Expo React Native",
                 icon: ""
             },
             {
@@ -99,21 +103,27 @@ export const Data = {
         title: 'Work Experience',
         works: [
             {
+                name: "Dumbbell - Freelance Client",
+                icon: "/dumbbellIcon.png",
+                role: "React Native Developer",
+                date: "January 2024 - Present",
+            },
+            {
+                name: "Novux AI - Freelance Client",
+                icon: "/novuxIcon.png",
+                role: "Frontend Developer",
+                date: "May 2024 - Present",
+            },
+            {
                 name: "BluRealty & Investment",
                 icon: "/bluIcon.png",
                 role: "Frontend Developer",
-                date: "September 2024 - Present",
-            },
-            {
-                name: "Freelance",
-                icon: "/me.png",
-                role: "Full Stack Developer | UI Designer",
-                date: "January 2023 - Present",
+                date: "September 2024 - February 2025",
             },
             {
                 name: "Escuela Superior de Guerra Aerea",
                 icon: "/esgaIcon.jpeg",
-                role: "Frontend Developer | UI Designer",
+                role: "Frontend Developer",
                 date: "March 2023 - December 2023",
             },
         ]
@@ -150,7 +160,63 @@ export const Data = {
     },
 
     works: {
+        title: "Works",
+        works: [
+            {
+                name: "NovuxAI",
+                icon: "/novuxAIWorkIcon.png",
+                desciption: "Developed an end-to-end multipage web app for NovuxAI to schedule sessions and follow up with a personal coach (AI). This projects is not already in production.",
+                stack: ["NextJs", "TailwindCSS", "AWS", "React"],
+                // url: 'http://localhost:3000/',
+                // github: "https://github.com/tikajeremias/dream-match",
+                // dockerhub: "https://hub.docker.com/repository/docker/jeremiastika/dream-match/general",
+            },
+            {
+                name: "Dumbbell",
+                icon: "/dumbbellWorkIcon.png",
+                desciption: "I worked with Expo React Native to design, develop, and implement highly interactive and scalable mobile applications.",
+                stack: ["Expo", "React Native", "Typescript", "Github"],
+                url: 'https://www.dumbbellarg.com/',
+                // github: "https://github.com/tikajeremias/dream-match",
+                // dockerhub: "https://hub.docker.com/repository/docker/jeremiastika/dream-match/general",
+            },
+            {
+                name: "BluRealty & Investment",
+                icon: "/bluRealtyIcon.png",
+                desciption: "Developed full-stack web applications, built an AI-powered chatbot with OpenAI APIs, and implemented GitHub CI/CD pipelines.",
+                stack: ["React", "TailwindCSS", "Github Actions"],
+                url: 'https://www.blurealty.ai/',
+                // github: "https://github.com/tikajeremias/dream-match",
+                // dockerhub: "https://hub.docker.com/repository/docker/jeremiastika/dream-match/general",
+            },
+            {
+                name: "Escuela Superior de Guerra Aerea",
+                icon: "/esgaWorkIcon.png",
+                desciption: "Frontend Developer and UI Design. I improved accessibility by 30%, resulting in increased user satisfaction.",
+                stack: ["React", "TailwindCSS", "Typescript", "NodeJs"],
+                url: 'https://esga.mil.ar/web/',
+                // github: "https://github.com/tikajeremias/dream-match",
+                // dockerhub: "https://hub.docker.com/repository/docker/jeremiastika/dream-match/general",
+            },
+            {
+                name: "Leaders Latam",
+                icon: "/leadersLatamIcon.png",
+                desciption: "I worked to create a user interface tailored to the client's needs, focusing on the quality of the user experience.",
+                stack: ["React", "TailwindCSS", "Typescript", "Github"],
+                url: 'https://leaderslatam.com/',
+                // github: "https://github.com/tikajeremias/dream-match",
+                // dockerhub: "https://hub.docker.com/repository/docker/jeremiastika/dream-match/general",
+            },
+            {
+                name: "Grupo Alonso",
+                icon: "/grupoAlonsoIcon.png",
+                desciption: "I worked to create a user interface tailored to the client's needs, focusing on the quality of the user experience.",
+                stack: ["React", "TailwindCSS", "Typescript", "Github"],
+                url: 'https://grupoalonso.com.ar/',
+                // github: "https://github.com/tikajeremias/poke-api",
+            },
 
+        ]
     },
 
     projects: {

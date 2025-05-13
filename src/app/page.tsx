@@ -6,6 +6,7 @@ import Experience from "@/blocks/Experience";
 import Navbar from "@/blocks/Navbar";
 import Profile from "@/blocks/Profile";
 import Projects from "@/blocks/Projects";
+import Works from "@/blocks/Works";
 import Contact from "@/components/Contact";
 import { contactAtom } from "@/lib/store";
 import { useAtom } from "jotai";
@@ -25,6 +26,7 @@ export default function Home() {
         <About />
         <Experience />
         <Education />
+        <Works />
         <Projects />
       </div>
     </main>
