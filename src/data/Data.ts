@@ -17,19 +17,15 @@ export const Data = {
         description: "At the end of 2021, I decided to start learning web development technologies. Investigating I discovered the power of UI skills in the development area so I improve my abilities in this area for develop the most so I focused on improving this field to develop the most intuitive and visually appealing user interfaces. Over time, I expanded my knowledge to become a full stack developer, combining my passion for UI with strong backend capabilities to deliver seamless and engaging digital experiences.",
         stack: [
             {
-                title: "HTML5",
-                icon: ""
-            },
-            {
-                title: "CSS3",
-                icon: ""
-            },
-            {
-                title: "Javascript",
-                icon: ""
-            },
-            {
                 title: "React",
+                icon: ""
+            },
+            {
+                title: "NextJs",
+                icon: ""
+            },
+            {
+                title: "NestJs",
                 icon: ""
             },
             {
@@ -38,18 +34,6 @@ export const Data = {
             },
             {
                 title: "Expo React Native",
-                icon: ""
-            },
-            {
-                title: "Next",
-                icon: ""
-            },
-            {
-                title: "Angular",
-                icon: ""
-            },
-            {
-                title: "Shadcn",
                 icon: ""
             },
             {
@@ -66,18 +50,6 @@ export const Data = {
             },
             {
                 title: "Express",
-                icon: ""
-            },
-            {
-                title: "Nest",
-                icon: ""
-            },
-            {
-                title: "Java",
-                icon: ""
-            },
-            {
-                title: "Spring Boot",
                 icon: ""
             },
             {
@@ -103,10 +75,16 @@ export const Data = {
         title: 'Work Experience',
         works: [
             {
+                name: "Kranio",
+                icon: "/kranio.png",
+                role: "React Native Developer",
+                date: "January 2025 - July 2025",
+            },
+            {
                 name: "Dumbbell - Freelance Client",
                 icon: "/dumbbellIcon.png",
                 role: "React Native Developer",
-                date: "January 2024 - Present",
+                date: "January 2025 - July 2025",
             },
             {
                 name: "Novux AI - Freelance Client",
